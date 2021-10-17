@@ -1,0 +1,101 @@
+2021-10-18 00:27:15,591 INFO  [Log] Search() PASSED 
+2021-10-18 00:27:26,394 INFO  [Log] MoreItems() PASSED 
+2021-10-18 00:27:26,935 ERROR [Log] AddProductToCart() FAILED with cause : element not interactable
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87370829931559db659922cf76413b05, clickElement {id=9952ffa1-aa55-42b5-ba72-7eefb3b39bf6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53305/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (87370829931559db659922cf76413b05)] -> tag name: a]
+Session ID: 87370829931559db659922cf76413b05 
+2021-10-18 00:27:26,953 ERROR [Log] IncreaseItem() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".oq\-up"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87370829931559db659922cf76413b05, findElement {using=css selector, value=.oq\-up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53305/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87370829931559db659922cf76413b05 
+2021-10-18 00:27:26,970 ERROR [Log] DeleteProducts() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".fa\-trash\-o"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87370829931559db659922cf76413b05, findElement {using=css selector, value=.fa\-trash\-o}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53305/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87370829931559db659922cf76413b05 
+2021-10-18 00:28:19,865 INFO  [Log] Search() PASSED 
+2021-10-18 00:28:20,059 ERROR [Log] MoreItems() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04d405624c5e36ac2073fe893f117d32, findElement {using=css selector, value=body}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59067/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04d405624c5e36ac2073fe893f117d32 
+2021-10-18 00:28:20,110 ERROR [Log] AddProductToCart() FAILED with cause : Index 1068 out of bounds for length 0 
+2021-10-18 00:28:20,130 ERROR [Log] IncreaseItem() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".oq\-up"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04d405624c5e36ac2073fe893f117d32, findElement {using=css selector, value=.oq\-up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59067/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04d405624c5e36ac2073fe893f117d32 
+2021-10-18 00:28:20,146 ERROR [Log] DeleteProducts() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".fa\-trash\-o"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04d405624c5e36ac2073fe893f117d32, findElement {using=css selector, value=.fa\-trash\-o}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59067/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04d405624c5e36ac2073fe893f117d32 
+2021-10-18 00:28:38,507 INFO  [Log] Search() PASSED 
+2021-10-18 00:28:49,591 INFO  [Log] MoreItems() PASSED 
+2021-10-18 00:28:52,411 INFO  [Log] AddProductToCart() PASSED 
+2021-10-18 00:28:52,799 INFO  [Log] IncreaseItem() PASSED 
+2021-10-18 00:28:52,882 INFO  [Log] DeleteProducts() PASSED 
+2021-10-18 00:54:11,617 INFO  [Log] Search() PASSED 
+2021-10-18 00:54:15,511 ERROR [Log] MoreItems() FAILED with cause : Unable to find element with locator By.cssSelector: body
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: RemoteWebDriver 
+2021-10-18 00:54:15,538 ERROR [Log] AddProductToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd7d9764b0ce95e614b68d0e679cabf1, findElements {using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60068/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd7d9764b0ce95e614b68d0e679cabf1 
+2021-10-18 00:54:15,569 ERROR [Log] IncreaseItem() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd7d9764b0ce95e614b68d0e679cabf1, findElement {using=css selector, value=.oq\-up}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60068/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd7d9764b0ce95e614b68d0e679cabf1 
+2021-10-18 00:54:15,569 ERROR [Log] DeleteProducts() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'TARDIS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd7d9764b0ce95e614b68d0e679cabf1, findElement {using=css selector, value=.fa\-trash\-o}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\yavuz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60068/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd7d9764b0ce95e614b68d0e679cabf1 
+2021-10-18 00:57:48,517 INFO  [Log] Search() PASSED 
+2021-10-18 00:58:03,006 INFO  [Log] MoreItems() PASSED 
+2021-10-18 00:58:04,648 INFO  [Log] AddProductToCart() PASSED 
+2021-10-18 00:58:09,311 INFO  [Log] IncreaseItem() PASSED 
+2021-10-18 00:58:09,418 INFO  [Log] DeleteProducts() PASSED 
